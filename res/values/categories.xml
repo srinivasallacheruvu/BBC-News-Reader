@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  BBC News Reader
+  Released under the BSD License. See README or LICENSE.
+  Copyright (c) 2011, Digital Lizard (Oscar Key, Thomas Boby)
+  All rights reserved.
+-->
+<resources>
+<string-array name="category_names">
+<item>Headlines</item>
+<item>World</item>
+<item>United Kingdom</item>
+<item>England</item>
+<item>Scotland</item>
+<item>Wales</item>
+<item>Business</item>
+<item>Politics</item>
+<item>Health</item>
+<item>Education</item>
+<item>Science &amp; Environment</item>
+<item>Technology</item>
+<item>Entertainment &amp; Arts</item>
+</string-array>
+<string-array name="catergory_rss_urls">
+<item>http://feeds.bbci.co.uk/news/mobile/rss.xml</item>
+<item>http://feeds.bbci.co.uk/news/mobile/world/rss.xml</item>
+<item>http://feeds.bbci.co.uk/news/mobile/uk/rss.xml</item>
+<item>http://feeds.bbci.co.uk/news/mobile/england/rss.xml</item>
+<item>http://feeds.bbci.co.uk/news/mobile/scotland/rss.xml</item>
+<item>http://feeds.bbci.co.uk/news/mobile/wales/rss.xml</item>
+<item>http://feeds.bbci.co.uk/news/mobile/business/rss.xml</item>
+<item>http://feeds.bbci.co.uk/news/mobile/politics/rss.xml</item>
+<item>http://feeds.bbci.co.uk/news/mobile/health/rss.xml</item>
+<item>http://feeds.bbci.co.uk/news/mobile/education/rss.xml</item>
+<item>http://feeds.bbci.co.uk/news/mobile/science_and_environment/rss.xml</item>
+<item>http://feeds.bbci.co.uk/news/mobile/technology/rss.xml</item>
+<item>http://feeds.bbci.co.uk/news/mobile/entertainment_and_arts/rss.xml</item>
+</string-array>
+<integer-array name="category_default_booleans">
+    <item>1</item>
+    <item>1</item>
+    <item>1</item>
+    <item>0</item>
+    <item>0</item>
+    <item>0</item>
+    <item>0</item>
+    <item>0</item>
+    <item>0</item>
+    <item>0</item>
+    <item>0</item>
+    <item>1</item>
+    <item>0</item>
+</integer-array>
+</resources>

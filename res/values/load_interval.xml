@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  BBC News Reader
+  Released under the BSD License. See README or LICENSE.
+  Copyright (c) 2011, Digital Lizard (Oscar Key, Thomas Boby)
+  All rights reserved.
+-->
+<resources>
+    <string-array name="loadIntervalEntries">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>12 hours</item>
+    </string-array>
+    <string-array name="loadIntervalValues">
+        <item>15_mins</item>
+        <item>30_mins</item>
+        <item>1_hour</item>
+        <item>half_day</item>
+    </string-array>
+</resources>

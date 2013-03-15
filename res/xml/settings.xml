@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  BBC News Reader
+  Released under the BSD License. See README or LICENSE.
+  Copyright (c) 2011, Digital Lizard (Oscar Key, Thomas Boby)
+  All rights reserved.
+-->
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+	<PreferenceCategory
+	android:title="General">
+	    <com.hlidskialf.android.preference.SeekBarPreference
+	    android:key="clearOutAge"
+        android:title="Old news"
+        android:summary="How long to keep old news"
+        android:dialogMessage="Reduce this to save space"
+        android:defaultValue="4"
+        android:text=" days"
+        android:max="30"/>
+        <com.hlidskialf.android.preference.SeekBarPreference
+	    android:key="itemLoadLimit"
+        android:title="Preloaded items"
+        android:summary="The number of items to preload"
+        android:dialogMessage="Reduce this to shorten load times"
+        android:defaultValue="4"
+        android:text=" items"
+        android:max="15"/>
+    </PreferenceCategory>
+    <PreferenceCategory
+    android:title="Background Loading">
+    	<CheckBoxPreference
+    	android:key="loadInBackground"
+    	android:title="Background loading"
+    	android:summary="Update news automatically"
+    	android:defaultValue="true"/>
+    	<CheckBoxPreference
+    	android:key="rtcWakeup"
+    	android:title="Load when locked"
+    	android:summary="Update when phone in standby"
+    	android:defaultValue="true" android:dependency="loadInBackground"/>
+    	<ListPreference
+    	android:key="loadInterval"
+    	android:title="Load interval"
+    	android:summary="How long to wait between loads"
+    	android:defaultValue="2"
+    	android:entries="@array/loadIntervalEntries"
+    	android:entryValues="@array/loadIntervalValues" android:dependency="loadInBackground"/>
+    </PreferenceCategory>
+    <PreferenceCategory
+    android:title="Debugging">
+    	<CheckBoxPreference
+        android:key="displayFullError"
+        android:title="Display full errors"
+        android:summary="Useful for diagnosing problems"
+        android:defaultValue="false"/>
+    </PreferenceCategory>
+</PreferenceScreen>
